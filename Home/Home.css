@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #feb000;
+  text-decoration: none;
+}
+header {
+  font-family: "Tajawal", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  background-color: #192836;
+}
+.logo {
+  cursor: pointer;
+  height: 100px;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+}
+.nav-links li a:hover {
+  color: #011a3e;
+  background-color: #efaf2f;
+  padding: 20px;
+  transition: all 0.5s ease 0s;
+}
+/* body */
+span {
+  font-weight: 900;
+}
+#body-container {
+  font-family: "Tajawal", sans-serif;
+font-weight: bold;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+}
+#body-header {
+  font-size: 87px;
+  color: #efaf2f;
+  text-transform: capitalize;
+  max-width: 50%;
+  padding-top: 3%;
+}
+#body-content {
+  color: #192836;
+  font-size: 28px;
+  text-transform: capitalize;
+  max-width: 75%;
+  padding-top: 5%;
+}
+/* ranking logo */
+#ranking-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fffbfb;
+}
+#ranking-container a img {
+  width: 300px;
+  height: 100px;
+  padding: 100px 20px;
+}
+#ranking-container a img:hover {
+  background: #efaf2f;
+  transition: 0.9s;
+}
+
+/* footer */
+footer {
+  padding-top: 50px;
+  background: #192836;
+}
+.footer-container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-content {
+  width: 33.3%;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #efaf2f;
+}
+.footer-content a {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul {
+  text-align: center;
+  list-style-type: none;
+}
+.list {
+  padding: 0;
+}
+.list li {
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #efaf2f;
+  transition-duration: 0.5s;
+}
+
+.list li:hover::before {
+  width: 70px;
+}
+
+.social-icons {
+  text-align: center;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i {
+  color: #efaf2f;
+  font-size: 25px;
+}
+.footer-links {
+  text-decoration: none;
+  list-style-type: none;
+}
+.bottom-bar {
+  background: #efaf2f;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p {
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
