@@ -192,6 +192,7 @@ span{
 footer {
     padding-top: 50px;
     background: #192836;
+    font-family: "Inter", sans-serif;
   }
   .footer-container {
     width: 1140px;
@@ -272,4 +273,3 @@ footer {
     font-size: 16px;
     padding: 7px;
   }
-
