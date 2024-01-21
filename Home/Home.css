@@ -56,6 +56,7 @@ font-weight: bold;
   max-width: 50%;
   padding-top: 3%;
 }
+
 #body-content {
   color: #192836;
   font-size: 28px;
@@ -83,6 +84,8 @@ font-weight: bold;
 footer {
   padding-top: 50px;
   background: #192836;
+  font-family: "Inter", sans-serif;
+
 }
 .footer-container {
   width: 1140px;
@@ -163,3 +166,21 @@ h3 {
   font-size: 16px;
   padding: 7px;
 }
+@media (max-width:800px) {
+  #body-header{
+   max-width: 31%;
+ }
+}
+@media (max-width:1700px) {
+  #body-header {
+max-width: 80%;
+  }
+}
+@media (max-width:1600px) {
+  #body-header {
+    max-width: 70%;
+  }
+  } 
+
+
+
