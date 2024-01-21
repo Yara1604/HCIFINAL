@@ -60,7 +60,7 @@ h1 {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
 }
 
 .boxes-content {
