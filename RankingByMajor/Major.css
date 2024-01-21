@@ -140,6 +140,7 @@ header {
 }
 .accordion{
     max-width: 75%;
+    width:1000px ;
 }
 .accordion .contentbx{
     position: relative;
@@ -148,7 +149,7 @@ header {
 
 }
 .content p{
-    max-width: 50%;
+    max-width: 80%;
 }
 span{
     font-weight: 900;
@@ -271,3 +272,4 @@ footer {
     font-size: 16px;
     padding: 7px;
   }
+
